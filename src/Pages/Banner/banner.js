@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+const Banner = () => {
     return (
         <div className="hero min-h-screen">
             <div className="hero-content text-center fixed top-1/3 text-white">
@@ -15,4 +15,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Banner;
