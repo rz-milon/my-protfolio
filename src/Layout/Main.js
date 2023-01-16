@@ -1,13 +1,14 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 import Header from '../Pages/Shared/Header/Header';
-import SocialIcon from '../Pages/Shared/SocialIcon/SocialIcon';
+import LeftSideSocialIcon from '../Pages/Shared/LeftSideSocialIcon/LeftSideSocialIcon';
+import { Outlet } from 'react-router-dom';
+
 
 const Main = () => {
     return (
         <div>
             <Header></Header>
-            <SocialIcon></SocialIcon>
+            <LeftSideSocialIcon></LeftSideSocialIcon>
             <Outlet></Outlet>
         </div>
     );

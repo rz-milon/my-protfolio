@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { HiBars3, HiOutlineXMark } from "react-icons/hi2";
-import './Header.css';
+
 
 const Header = () => {
 
@@ -14,7 +14,7 @@ const Header = () => {
         </>
 
     return (
-        <div className="navbar bg-black/20 text-gray-400 pr-12">
+        <div className="navbar bg-black/20 text-gray-400 pr-12 fixed top-0 left-0 right-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

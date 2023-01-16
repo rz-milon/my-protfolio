@@ -3,16 +3,16 @@ import { HiOutlineGlobeAlt } from 'react-icons/hi2';
 import { HiExternalLink } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import projectImg1 from '../../Assets/ProjectScreen/Screenshot from 2023-01-12 00-38-50.png'
+
 
 const Portfolio = () => {
     return (
         <div className='min-h-screen'>
-            <div className='sm:mx-5 md:mx-10 lg:mx-24 pt-3'>
-                <h2 className='text-4xl tracking-tight font-light mb-12 text-white'>My Projects</h2>
-                <div className='grid lg:grid-cols-3 gap-2 lg:gap-4 md:grid-cols-2 md:gap-5 sm:grid-cols-1 sm:gap-10 sm:mx-auto'>
+            <div className='sm:mx-5 md:mx-10 lg:mx-24'>
+                <h2 className='text-4xl tracking-tight font-light mt-24 text-white'>My Projects</h2>
+                <div className='grid lg:grid-cols-3 gap-2 lg:gap-4 md:grid-cols-2 md:gap-5 sm:grid-cols-1 sm:gap-10 sm:mx-auto mt-12'>
                     <div className="card w-full  bg-gray-800 text-white rounded-lg shadow-xl">
-                        <figure><img src={projectImg1} alt="Shoes" /></figure>
+                        <figure><img src='' alt="Shoes" /></figure>
 
                         <div className="card-body">
                             <h2 className="card-title">
@@ -30,7 +30,7 @@ const Portfolio = () => {
                     </div>
 
                     <div className="card w-full  bg-gray-800 text-white rounded-lg shadow-xl">
-                        <figure><img src={projectImg1} alt="Shoes" /></figure>
+                        <figure><img src='' alt="Shoes" /></figure>
 
                         <div className="card-body">
                             <h2 className="card-title">
@@ -48,7 +48,7 @@ const Portfolio = () => {
                     </div>
 
                     <div className="card w-full  bg-gray-800 text-white rounded-lg shadow-xl">
-                        <figure><img src={projectImg1} alt="Shoes" /></figure>
+                        <figure><img src='' alt="Shoes" /></figure>
 
                         <div className="card-body">
                             <h2 className="card-title">

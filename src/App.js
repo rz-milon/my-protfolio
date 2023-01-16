@@ -1,45 +1,45 @@
-import { createBrowserRouter, RouterProvider} from 'react-router-dom';
-import './App.css'
+import logo from './logo.svg';
+import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './Layout/Main';
-import About from './Pages/About/About';
-import Skills from './Pages/Skills/Skills';
-import Portfolio from './Pages/Portfolio/Portfolio';
-import Contact from './Pages/Contact/Contact';
-import Home from './Pages/Home/Home';
+import Home from './Pages/Home/Home/Home';
+import About from './Pages/Home/About/About';
+import Portfolio from './Pages/Home/Portfolio/Portfolio';
+import Skills from './Pages/Home/Skills/Skills';
+import Contact from './Pages/Home/Contact/Contact';
 
 function App() {
-const router = createBrowserRouter([
-  {
-    path:'/',
-    element:<Main></Main>,
-    children:[
-      {
-        path:'/',
-        element:<Home></Home>
-      },
-      {
-        path:'/about',
-        element:<About></About>
-      },
-      {
-        path:'/Skills',
-        element:<Skills></Skills>
-      },
-      {
-        path:'/portfolio',
-        element:<Portfolio></Portfolio>
-      },
-      {
-        path:'/contact',
-        element:<Contact></Contact>
-      },
-    ]
-  }
-]);
-
+  const router = createBrowserRouter([
+    {
+      path:'/',
+      element:<Main></Main>,
+      children:[
+        {
+          path:'/',
+          element:<Home></Home>
+        },
+        {
+          path:'/about',
+          element:<About></About>
+        },
+        {
+          path:'/portfolio',
+          element:<Portfolio></Portfolio>
+        },
+        {
+          path:'/skills',
+          element:<Skills></Skills>
+        },
+        {
+          path:'/contact',
+          element:<Contact></Contact>
+        },
+      ]
+    }
+  ]);
 
   return (
-    <div className=''>
+    <div className="App">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

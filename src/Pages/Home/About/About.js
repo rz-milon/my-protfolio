@@ -1,12 +1,12 @@
 import React from 'react';
 import { FaDownload } from 'react-icons/fa';
-import profileImg from '../../Assets/profile-img/IMG_20221214_090908-removebg-preview.png'
+
 
 const About = () => {
     return (
         <div className=" min-h-screen text-white">
             <div className=" hero-content flex flex-col lg:flex-row-reverse mx-48">
-                <img src={profileImg} alt='' className="max-w-sm rounded-lg shadow-lg bg-white h-80 opacity-80 hover:opacity-100 transition delay-300" />
+                <img src='' alt='' className="max-w-sm rounded-lg shadow-lg bg-white h-80 opacity-80 hover:opacity-100 transition delay-300" />
                 <div className='min-w-lg'>
                     <h1 className="text-4xl tracking-tight font-light mt-10 mb-14">About Me</h1>
 
