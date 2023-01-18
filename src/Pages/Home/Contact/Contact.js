@@ -23,9 +23,9 @@ const Contact = () => {
                         </div>
                         <hr className="mb-6 border-gray-300 mt-20" />
                         <div className="flex space-x-6 justify-center">
-                            <a href="http://" target="_blank" rel="noopener noreferrer"><FaRegEnvelope className='w-10 h-10 mb-3 hover:text-red-600 hover:-translate-y-1 duration-700 text-gray-400' /></a>
-                            <a href="http://" target="_blank" rel="noopener noreferrer"><VscGithubInverted className='w-10 h-10 hover:text-red-600 hover:-translate-y-1 duration-700 text-gray-400' /></a>
-                            <a href="http://" target="_blank" rel="noopener noreferrer"><FaLinkedin className='w-10 h-10 hover:text-red-600 hover:-translate-y-1 duration-700 text-gray-400' /></a>
+                            <a href="http://rzmilon@gmail.com" target="_blank" rel="noopener noreferrer"><FaRegEnvelope className='w-10 h-10 mb-3 hover:text-red-600 hover:-translate-y-1 duration-700 text-gray-400' /></a>
+                            <a href="https://github.com/rz-milon" target="_blank" rel="noopener noreferrer"><VscGithubInverted className='w-10 h-10 hover:text-red-600 hover:-translate-y-1 duration-700 text-gray-400' /></a>
+                            <a href="https://www.linkedin.com/in/rzmilon" target="_blank" rel="noopener noreferrer"><FaLinkedin className='w-10 h-10 hover:text-red-600 hover:-translate-y-1 duration-700 text-gray-400' /></a>
                             <a href="http://" target="_blank" rel="noopener noreferrer"><FaTwitter className='w-10 h-10 hover:text-red-600 hover:-translate-y-1 duration-700 text-gray-400' /></a>
                             <a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebookSquare className='w-10 h-10 hover:text-red-600 hover:-translate-y-1 duration-700 text-gray-400' /></a>
                         </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                             <textarea type='text' name='message' required className="outline-none hover:bg-black/20 px-4 py-3 border-b border-black/20 hover:border-red-800 w-full h-36 bg-transparent" placeholder="Message"></textarea>
                         </div>
                         <div className='flex justify-center'>
-                            <button type="submit" className='mt-5 text-xl text-red-600 px-10 py-2 hover:bg-black/20 border border-red-800'>SUBMIT</button>
+                            <button type="submit" className='mt-5 text-xl text-red-600 px-10 py-2 hover:bg-black/20 border border-red-800'>SEND MESSAGE</button>
                         </div>
                     </div>
                 </div>
