@@ -8,11 +8,21 @@ import Contact from '../Contact/Contact';
 const Home = () => {
     return (
         <div>
-            <Banner></Banner>
-            <About></About>
-            <Portfolio></Portfolio>
-            <Skills></Skills>
-            <Contact></Contact>
+            <section>
+                <Banner></Banner>
+            </section>
+            <section>
+                <About></About>
+            </section>
+            <section>
+                <Portfolio></Portfolio>
+            </section>
+            <section>
+                <Skills></Skills>
+            </section>
+            <section>
+                <Contact></Contact>
+            </section>
         </div>
     );
 };
