@@ -1,26 +1,40 @@
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
-import { FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithubSquare, FaGitSquare, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
 import { MdPictureAsPdf } from "react-icons/md";
 import { VscGithubInverted } from "react-icons/vsc";
 
 
+
 const SocialIcon = () => {
-    useEffect(()=>{
+    useEffect(() => {
         Aos.init();
-    },[])
+    }, [])
 
     return (
-        <div className='fixed top-1/4 ml-7' data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+        <div className='fixed left-0 top-0 z-[90]' data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
         >
-            <a href="https://github.com/rz-milon" target="_blank" rel="noopener noreferrer"><VscGithubInverted className='w-6 h-6 mb-3 hover:text-red-600 hover:translate-x-1 duration-700 text-gray-400' /></a>
-            <a href="https://www.linkedin.com/in/rzmilon/" target="_blank" rel="noopener noreferrer"><FaLinkedin className='w-6 h-6 mb-3 hover:text-red-600 hover:translate-x-1 duration-700 text-gray-400' /></a>
-            <a href="https://twitter.com/rz_milon" target="_blank" rel="noopener noreferrer"><FaTwitter className='w-6 h-6 mb-3 hover:text-red-600 hover:translate-x-1 duration-700 text-gray-400' /></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-            <HiMail className='w-6 h-6 mb-3 hover:text-red-600 hover:translate-x-1 duration-700 text-gray-400' /></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" aria-label="Resume link" className='tooltip tooltip-right tooltip-info' data-tip='Resume'><MdPictureAsPdf className='w-6 h-6 hover:text-red-600 hover:translate-x-1 duration-700 text-gray-400' /></a>
+            <div className='bg-[#ff3d00] h-28 w-[1px] my-0 mx-auto'></div>
+            <ul className='block space-y-3 mx-4 my-4'>
+                <li className='hover:text-[#ff3d00] hover:translate-x-1 duration-700 text-gray-400'>
+                    <a href="https://github.com/rz-milon" target="_blank" rel="noopener noreferrer"><VscGithubInverted className='w-6 h-6' /></a>
+                </li>
+                <li className='hover:text-[#ff3d00] hover:translate-x-1 duration-700 text-gray-400'>
+                    <a href="https://www.linkedin.com/in/rzmilon/" target="_blank" rel="noopener noreferrer"><FaLinkedin className='w-6 h-6' /></a>
+                </li>
+                <li className='hover:text-[#ff3d00] hover:translate-x-1 duration-700 text-gray-400'>
+                    <a href="https://twitter.com/rz_milon" target="_blank" rel="noopener noreferrer"><FaTwitter className='w-6 h-6' /></a>
+                </li>
+                <li className='hover:text-[#ff3d00] hover:translate-x-1 duration-700 text-gray-400'>
+                    <a href="mailto:rzmilon@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <HiMail className='w-6 h-6' /></a>
+                </li>
+                <li className='hover:text-[#ff3d00] hover:translate-x-1 duration-700 text-gray-400'>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" aria-label="Resume link" className='tooltip tooltip-right tooltip-info' data-tip='Resume'><MdPictureAsPdf className='w-6 h-6' /></a>
+                </li>
+            </ul>
         </div>
     );
 };

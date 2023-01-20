@@ -19,6 +19,10 @@ function App() {
           element:<Home></Home>
         },
         {
+          path:'/home',
+          element:<Home></Home>
+        },
+        {
           path:'/about',
           element:<About></About>
         },
