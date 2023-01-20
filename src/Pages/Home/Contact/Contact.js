@@ -41,7 +41,7 @@ const Contact = () => {
                             <textarea type='text' name='message' required className="outline-none hover:bg-black/20 px-4 py-3 border-b border-black/20 hover:border-[#ff3d00] w-full lg:max-w-lg md:w-full h-36 bg-transparent" placeholder="Message"></textarea>
                         </div>
                         <div className='flex justify-center'>
-                            <button type="submit" className='mt-5 text-xl text-white px-10 py-2 hover:bg-black/20 border border-[#ff3d00]'>SEND MESSAGE</button>
+                            <button type="submit" className='mt-5 text-xl text-white px-4 py-2 hover:bg-[#ff3d00] border border-[#ff3d00]'>Send Message</button>
                         </div>
                     </div>
                 </div>

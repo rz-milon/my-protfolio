@@ -1,7 +1,7 @@
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
-import { FaGithubSquare, FaGitSquare, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
 import { MdPictureAsPdf } from "react-icons/md";
 import { VscGithubInverted } from "react-icons/vsc";
@@ -17,7 +17,7 @@ const SocialIcon = () => {
         <div className='fixed left-0 top-0 z-[90]' data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
         >
             <div className='bg-[#ff3d00] h-28 w-[1px] my-0 mx-auto'></div>
-            <ul className='block space-y-3 mx-4 my-4'>
+            <ul className='block space-y-3 mx-6 my-4'>
                 <li className='hover:text-[#ff3d00] hover:translate-x-1 duration-700 text-gray-400'>
                     <a href="https://github.com/rz-milon" target="_blank" rel="noopener noreferrer"><VscGithubInverted className='w-6 h-6' /></a>
                 </li>
