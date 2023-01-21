@@ -14,7 +14,7 @@ const SocialIcon = () => {
     }, [])
 
     return (
-        <div className='fixed left-0 top-0 z-[90]' data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+        <div className='fixed left-0 top-0 z-[90] hidden lg:block' data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
         >
             <div className='bg-[#ff3d00] h-28 w-[1px] my-0 mx-auto'></div>
             <ul className='block space-y-3 mx-6 my-4'>

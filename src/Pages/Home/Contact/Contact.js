@@ -11,7 +11,7 @@ const Contact = () => {
     return (
         <div className='hero min-h-screen'>
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:mx-40 md:mx-36 sm:mx-32" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-                <div className="flex flex-col justify-between lg:flex-row space-x-32">
+                <div className="flex flex-col justify-center lg:justify-between lg:flex-row lg:space-x-32">
                     <div className="mb-12 lg:ml-0 lg:mb-0">
                         <div className="mb-6">
                             <h2 className="max-w-full lg:text-left mb-6 text-4xl tracking-tight font-light text-center text-[#ff3d00]">
@@ -32,7 +32,7 @@ const Contact = () => {
                            </ul>
                         </div>
                     </div>
-                    <div className="px-5 lg:mx-0">
+                    <div className="px-5 w-full lg:mx-0 justify-center">
                         <div className='space-y-5'>
                             <input type="text" placeholder="Full Name" name='name' required
                                 className="outline-none hover:bg-black/20 px-4 py-3 border-b border-black/20 hover:border-[#ff3d00] w-full lg:max-w-lg md:w-full  bg-transparent" />
@@ -40,7 +40,7 @@ const Contact = () => {
 
                             <textarea type='text' name='message' required className="outline-none hover:bg-black/20 px-4 py-3 border-b border-black/20 hover:border-[#ff3d00] w-full lg:max-w-lg md:w-full h-36 bg-transparent" placeholder="Message"></textarea>
                         </div>
-                        <div className='flex justify-center'>
+                        <div className='flex justify-center w-full lg:w-30'>
                             <button type="submit" className='mt-5 text-xl text-white px-4 py-2 hover:bg-[#ff3d00] border border-[#ff3d00]'>Send Message</button>
                         </div>
                     </div>
