@@ -17,7 +17,7 @@ const Header = () => {
         </>
 
     return (
-        <div className="navbar nav bg-gray-800 text-gray-400 pr-12 fixed top-0 left-0 w-full z-[100]">
+        <div className="navbar nav bg-transparent lg:bg-gray-800  text-gray-400 pr-12 fixed top-0 left-0 w-full z-[100]">
             <div className="navbar-start">
                 <div onClick={()=> setOpen(!open)} className="dropdown nav">
                     <label tabIndex={0} className="btn bg-gray-800 lg:hidden outline-none text-[#ff3d00] hover:bg-blue-700">

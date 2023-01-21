@@ -16,7 +16,7 @@ const Portfolio = () => {
 
     return (
         <div className='hero min-h-screen'>
-            <div className='mx-10 sm:mx-5 md:mx-10 lg:mx-40 mt-20' data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+            <div className='mx-10 sm:mx-5 md:mx-10 lg:mx-40 my-20' data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                 <h2 className='text-4xl tracking-tight font-light lg:text-left text-center text-[#ff3d00] my-12 sm:my-5 '>My Projects</h2>
                 <div className='grid lg:grid-cols-3 gap-10 lg:gap-4 md:grid-cols-2 md:gap-5 sm:grid-cols-1 sm:gap-10  mt-4 lg:mt-12'>
                 <div className="card w-full sm:max-w-sm h-fit bg-black/10 text-white rounded-lg shadow-xl shadow-white/10 hover:shadow-[#ff3d00]">
