@@ -1,5 +1,6 @@
 import Aos from 'aos';
 import React, { useEffect } from 'react';
+import SkillsParticle from '../../../Particles/SkillsParticle';
 
 
 const Skills = () => {
@@ -9,6 +10,7 @@ const Skills = () => {
 
     return (
         <div className='hero min-h-screen'>
+            <SkillsParticle />
             <div className='text-white mx-10 lg:mx-40 md:mx-36 sm:mx-32 lg:max-w-screen-xl md:max-w-full sm:max-w-xl' data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                 <h1 className="text-4xl my-12 sm:my-5 tracking-tight font-light lg:text-left text-center text-[#ff3d00]">Skills & Experience</h1>
                 <div className='mt-2 lg:mt-12'>

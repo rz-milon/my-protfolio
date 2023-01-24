@@ -2,6 +2,7 @@ import Aos from 'aos';
 import React, { useEffect } from 'react';
 import { FaDownload } from 'react-icons/fa';
 import profileImg from '../../../Assets/profile-image/profile-img.png'
+import AboutParticle from '../../../Particles/AboutParticle';
 
 
 const About = () => {
@@ -10,6 +11,7 @@ const About = () => {
     },[])
     return (
         <div className="hero min-h-screen text-white">
+            <AboutParticle />
             <div className=" hero-content flex flex-col lg:flex-row-reverse sm:32 md:36 lg:mx-40 mt-20" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                 <img src={profileImg} alt='' className="max-w-sm rounded-lg shadow-lg bg-white h-80 opacity-80 hover:opacity-100 transition delay-300" />
                 <div className='min-w-lg'>

@@ -2,6 +2,7 @@ import Aos from 'aos';
 import React, { useEffect } from 'react';
 import { FaFacebookSquare, FaLinkedin, FaRegEnvelope, FaTwitter } from 'react-icons/fa';
 import { VscGithubInverted } from 'react-icons/vsc';
+import ContactParticle from '../../../Particles/ContactParticle';
 
 
 const Contact = () => {
@@ -10,6 +11,7 @@ const Contact = () => {
     },[])
     return (
         <div className='hero min-h-screen'>
+            <ContactParticle />
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:mx-40 md:mx-36 sm:mx-32" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                 <div className="flex flex-col justify-center lg:justify-between lg:flex-row lg:space-x-32">
                     <div className="mb-12 lg:ml-0 lg:mb-0">

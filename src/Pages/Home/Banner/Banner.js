@@ -1,6 +1,10 @@
 import Aos from 'aos';
 import React, { useEffect } from 'react';
 import bgImg from '../../../Assets/banner-img/pietro-jeng-n6B49lTx7NM-unsplash.jpg';
+import BannerParticle from '../../../Particles/BannerParticle';
+// import './Banner.css';
+
+
 
 
 const Banner = () => {
@@ -8,10 +12,10 @@ const Banner = () => {
         Aos.init();
     }, [])
 
-
     return (
-        <div className="hero min-h-screen">
-            <img src={bgImg} alt="" className='w-full h-screen bg-no-repeat bg-cover bg-fixed opacity-20 relative top-0' />
+        <div className="hero min-h-screen bg-[#090a16]"> 
+            {/* <BannerParticle className='particle' /> */}
+            {/* <img src={bgImg} alt="" className='w-full h-screen bg-no-repeat bg-cover bg-fixed opacity-20 relative top-0' /> */}
             <div className="hero-content text-center  top-1/3 text-white" >
                 <div className="max-w-full text-left">
                     <p className="text-xl font-light tracking-tight mb-3">Hello, My name is</p>
