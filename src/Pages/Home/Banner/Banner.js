@@ -14,7 +14,7 @@ const Banner = () => {
 
     return (
         <div className="hero min-h-screen bg-[#090a16]"> 
-            {/* <BannerParticle className='particle' /> */}
+            <BannerParticle className='particle' />
             {/* <img src={bgImg} alt="" className='w-full h-screen bg-no-repeat bg-cover bg-fixed opacity-20 relative top-0' /> */}
             <div className="hero-content text-center  top-1/3 text-white" >
                 <div className="max-w-full text-left">
