@@ -9,15 +9,35 @@ const Header = () => {
 
     const menuItems =
         <>
-            <li className='hover:text-white hover:bg-black/10'><NavLink to='/'>Home</NavLink></li>
-            <li className='hover:text-white hover:bg-black/10'><NavLink to='/about'>About</NavLink></li>
-            <li className='hover:text-white hover:bg-black/10'><NavLink to='portfolio'>Portfolio</NavLink></li>
-            <li className='hover:text-white hover:bg-black/10'><NavLink to='/skills'>Skills</NavLink></li>
-            <li className='hover:text-white hover:bg-black/10'><NavLink to='contact'>Contact</NavLink></li>
+            <li><NavLink to='/' className={({ isActive }) =>
+                  isActive
+                    ? 'font-bold tracking-wide text-[#ff3d00] border-b-2 border-[#ff3d00] transition-colors duration-200'
+                    : 'font-medium tracking-wide  text-gray-400 transition-colors duration-200 hover:bg-white/10 hover:text-white'
+                }>Home</NavLink></li>
+            <li><NavLink to='/about' className={({ isActive }) =>
+                  isActive
+                    ? 'font-bold tracking-wide text-[#ff3d00] border-b-2 border-[#ff3d00] transition-colors duration-200'
+                    : 'font-medium tracking-wide  text-gray-400 transition-colors duration-200 hover:bg-white/10 hover:text-white'
+                }>About</NavLink></li>
+            <li><NavLink to='portfolio' className={({ isActive }) =>
+                  isActive
+                    ? 'font-bold tracking-wide text-[#ff3d00] border-b-2 border-[#ff3d00] transition-colors duration-200'
+                    : 'font-medium tracking-wide  text-gray-400 transition-colors duration-200 hover:bg-white/10 hover:text-white'
+                }>Portfolio</NavLink></li>
+            <li><NavLink to='/skills' className={({ isActive }) =>
+                  isActive
+                    ? 'font-bold tracking-wide text-[#ff3d00] border-b-2 border-[#ff3d00] transition-colors duration-200'
+                    : 'font-medium tracking-wide  text-gray-400 transition-colors duration-200 hover:bg-white/10 hover:text-white'
+                }>Skills</NavLink></li>
+            <li><NavLink to='contact' className={({ isActive }) =>
+                  isActive
+                    ? 'font-bold tracking-wide text-[#ff3d00] border-b-2 border-[#ff3d00] transition-colors duration-200'
+                    : 'font-medium tracking-wide  text-gray-400 transition-colors duration-200 hover:bg-white/10 hover:text-white'
+                }>Contact</NavLink></li>
         </>
 
     return (
-        <div className="navbar nav bg-transparent lg:bg-[#000] text-gray-400 pr-12 fixed top-0 left-0 w-screen z-[100]">
+        <div className="navbar nav bg-transparent m-0 p-[-5] lg:bg-[#000] text-gray-400 pr-12 fixed top-0 left-0 w-screen z-[100]">
             <div className="navbar-start">
                 <div onClick={()=> setOpen(!open)} className="dropdown nav">
                     <label tabIndex={0} className="btn bg-transparent lg:hidden outline-none text-white hover:bg-[#ff3d00]">

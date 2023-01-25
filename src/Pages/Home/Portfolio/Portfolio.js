@@ -17,7 +17,7 @@ const Portfolio = () => {
 
     return (
         <div className='hero min-h-screen'>
-            <ProjectParticle />
+            {/* <ProjectParticle /> */}
             <div className='mx-10 sm:mx-5 md:mx-10 lg:mx-40 my-20' data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                 <h2 className='text-4xl tracking-tight font-light lg:text-left text-center text-[#ff3d00] my-12 sm:my-5 '>My Projects</h2>
                 <div className='grid lg:grid-cols-3 gap-10 lg:gap-4 md:grid-cols-2 md:gap-5 sm:grid-cols-1 sm:gap-10  mt-4 lg:mt-12'>
@@ -34,7 +34,7 @@ const Portfolio = () => {
                             </div>
                             <div className="card-actions inline-flex lg:justify-between justify-end">
                                 <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://assignment-10-509ea.web.app/" target="_blank" rel="noopener noreferrer"><HiOutlineGlobeAlt className='w-6 h-6 mr-2' /><span className='mr-2'>Live</span><HiExternalLink className='w-6 h-6' /></a>
-                                <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://github.com/rz-milon/Assignment/tree/master-branch/b610-learning-platform-client-side-RZ-Milon" target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
+                                <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href=" " target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const Portfolio = () => {
                             </div>
                             <div className="card-actions inline-flex lg:justify-between justify-end">
                                 <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://storied-marzipan-7e26f5.netlify.app/" target="_blank" rel="noopener noreferrer"><HiOutlineGlobeAlt className='w-6 h-6 mr-2' /><span className='mr-2'>Live</span><HiExternalLink className='w-6 h-6' /></a>
-                                <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://github.com/rz-milon/Assignment/tree/master-branch/b610-learning-platform-client-side-RZ-Milon" target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
+                                <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href=" " target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const Portfolio = () => {
                             </div>
                             <div className="card-actions inline-flex lg:justify-between justify-end">
                                 <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://app.netlify.com/sites/delicate-hamster-62a4f7" target="_blank" rel="noopener noreferrer"><HiOutlineGlobeAlt className='w-6 h-6 mr-2' /><span className='mr-2'>Live</span><HiExternalLink className='w-6 h-6' /></a>
-                                <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://github.com/rz-milon/Assignment/tree/master-branch/b610-learning-platform-client-side-RZ-Milon" target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
+                                <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href=" " target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
                             </div>
                         </div>
                     </div>

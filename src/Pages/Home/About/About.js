@@ -1,6 +1,6 @@
 import Aos from 'aos';
 import React, { useEffect } from 'react';
-import { FaDownload } from 'react-icons/fa';
+import { HiCloudArrowDown } from 'react-icons/hi2';
 import profileImg from '../../../Assets/profile-image/profile-img.png'
 import AboutParticle from '../../../Particles/AboutParticle';
 
@@ -23,7 +23,7 @@ const About = () => {
                                 I like dabbling in various parts of front-end development and like to learn about new technologies.</article>
                         <article>A Web Developer with an amazing ability to develop websites that are both functional and aesthetically pleasing.</article>
                         <article>Having a strong understanding of web standards and best practices, and a passion for creating websites that users will find easy to use and visually appealing.</article></p>
-                    <p className='text-xl tracking-wide leading-8 font-light mt-5 flex justify-center lg:justify-start'><span className='text-[#ff3d00]'>Download My Resume</span> <a href="https://drive.google.com/file/d/1wstkr5zr0aKXForuJVBfyBwxogSlqkw8/view?usp=share_link" target="_blank" rel="noopener noreferrer"><FaDownload className='w-8 h-8 ml-5 hover:text-[#ff3d00] hover:translate-y-1' /></a></p>
+                    <p className='text-xl tracking-wide leading-8 font-light mt-5 flex justify-center lg:justify-start'><span className='text-[#ff3d00]'>Download My Resume</span> <a href="https://drive.google.com/file/d/1wstkr5zr0aKXForuJVBfyBwxogSlqkw8/view?usp=share_link" target="_blank" rel="noopener noreferrer"><HiCloudArrowDown className='w-8 h-8 ml-5 hover:text-[#ff3d00] hover:translate-y-1' /></a></p>
 
                 </div>
             </div>
