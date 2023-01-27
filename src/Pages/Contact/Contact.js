@@ -1,9 +1,9 @@
 import Aos from 'aos';
 import React, { useEffect } from 'react';
-import { FaAngleDown, FaAngleUp, FaFacebookSquare, FaLinkedin, FaRegEnvelope, FaTwitter } from 'react-icons/fa';
+import { FaAngleUp, FaFacebookSquare, FaLinkedin, FaRegEnvelope, FaTwitter } from 'react-icons/fa';
 import { VscGithubInverted } from 'react-icons/vsc';
 import { Link } from 'react-router-dom';
-import ContactParticle from '../../../Particles/ContactParticle';
+import ContactParticle from '../../components/Particles/ContactParticle';
 
 
 const Contact = () => {
@@ -14,6 +14,7 @@ const Contact = () => {
         <div className='hero min-h-screen'>
             {/* <ContactParticle /> */}
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:mx-40 md:mx-36 sm:mx-32" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+
                 <div className="flex flex-col justify-center lg:justify-between lg:flex-row lg:space-x-32">
                     <div className="mb-12 lg:ml-0 lg:mb-0">
                         <div className="mb-6">
@@ -48,10 +49,10 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+                <div className='absolute -right-20 top-full overflow-hidden'>
+                    <a href="#home"><FaAngleUp className='animate-bounce w-10 h-10 text-[#ff3d00]' /></a>
+                </div>
             </div>
-            {/* <div className='absolute bottom-16 right-12 overflow-hidden'>
-                <Link to='/'><FaAngleUp className='animate-bounce w-10 h-10 text-[#ff3d00]' /></Link>
-            </div> */}
         </div>
 
     );

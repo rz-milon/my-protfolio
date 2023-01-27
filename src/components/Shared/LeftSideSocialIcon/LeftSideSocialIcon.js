@@ -8,7 +8,7 @@ import { VscGithubInverted } from "react-icons/vsc";
 
 
 
-const SocialIcon = () => {
+const LeftSideSocialIcon = () => {
     useEffect(() => {
         Aos.init();
     }, [])
@@ -39,4 +39,4 @@ const SocialIcon = () => {
     );
 };
 
-export default SocialIcon;
+export default LeftSideSocialIcon;

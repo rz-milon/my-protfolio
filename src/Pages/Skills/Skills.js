@@ -1,6 +1,5 @@
 import Aos from 'aos';
 import React, { useEffect } from 'react';
-import SkillsParticle from '../../../Particles/SkillsParticle';
 
 
 const Skills = () => {

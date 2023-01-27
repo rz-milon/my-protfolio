@@ -1,22 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Main from './Layout/Main';
-import Home from './Pages/Home/Home/Home';
-import About from './Pages/Home/About/About';
-import Portfolio from './Pages/Home/Portfolio/Portfolio';
-import Skills from './Pages/Home/Skills/Skills';
-import Contact from './Pages/Home/Contact/Contact';
+import Main from './components/Layout/Main';
+import Home from './Pages/Home/Home';
+import About from './Pages/About/About';
+import Portfolio from './Pages/Portfolio/Portfolio';
+import Skills from './Pages/Skills/Skills';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   const router = createBrowserRouter([
     {
       path:'/',
-      element:<Main></Main>,
+      element:<Main/>,
       children:[
         {
-          path:'/',
-          element:<Home></Home>
+          path:'/home',
+          element:<Home/>
         },
         {
           path:'/about',
