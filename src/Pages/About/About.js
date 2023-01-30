@@ -2,7 +2,6 @@ import Aos from 'aos';
 import React, { useEffect } from 'react';
 import { HiCloudArrowDown } from 'react-icons/hi2';
 import profileImg from '../../Assets/profile-image/profile-img.png';
-import AboutParticle from '../../components/Particles/AboutParticle';
 
 
 const About = () => {
@@ -11,9 +10,8 @@ const About = () => {
     },[])
     return (
         <div className="hero min-h-screen text-white">
-            {/* <AboutParticle /> */}
-            <div className=" hero-content flex flex-col lg:flex-row-reverse sm:32 md:36 lg:mx-40 mt-20" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-                <img src={profileImg} alt='' className="max-w-sm rounded-lg shadow-lg bg-white h-80 opacity-80 hover:opacity-100 transition delay-300" />
+            <div className=" hero-content flex flex-col lg:flex-row-reverse sm:32 md:36 lg:mx-40" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <img src={profileImg} alt='' className="max-w-sm rounded-lg shadow-lg bg-white h-80 opacity-80 hover:opacity-100 transition delay-300 mt-60 lg:mt-0" />
                 <div className='min-w-lg'>
                     <h1 className="text-4xl tracking-tight font-light  lg:text-left text-center text-[#ff3d00]">About Me</h1>
 

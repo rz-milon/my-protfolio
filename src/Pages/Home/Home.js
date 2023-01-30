@@ -18,7 +18,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div className="hero min-h-screen bg-[#090a16]">
+        <div className="hero min-h-screen min-w-full ">
             <BubbleParticle/>
             <div className="hero-content text-center top-1/2  lg:top-1/3 text-white" >
                 <div className="max-w-full text-left">
@@ -51,7 +51,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='absolute left-1/2 right-0 bottom-4 lg:bottom-16 mx-auto'>
+            <div className='absolute left-1/2 right-0 bottom-8 md:bottom-10 lg:bottom-16 mx-auto'>
                 <a href="#about"><FaAngleDown className='animate-bounce w-10 h-10 text-[#ff3d00]' /></a>
             </div>
         </div>

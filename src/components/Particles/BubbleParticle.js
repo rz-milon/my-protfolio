@@ -92,11 +92,11 @@ const BubbleParticle = () => {
                   "detect_on": "canvas",
                   "events": {
                     "onhover": {
-                      "enable": false,
-                      "mode": "grab"
+                      "enable": true,
+                      "mode": "repulse"
                     },
                     "onclick": {
-                      "enable": false,
+                      "enable": true,
                       "mode": "push"
                     },
                     "resize": true

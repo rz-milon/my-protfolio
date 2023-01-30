@@ -5,56 +5,53 @@ import Contact from '../../../Pages/Contact/Contact';
 import Home from '../../../Pages/Home/Home';
 import Portfolio from '../../../Pages/Portfolio/Portfolio';
 import Skills from '../../../Pages/Skills/Skills';
+
 import './Header.css';
 
 
 const Header = () => {
     return (
-        <div className="App">
-            <header className="nav flex justify-center lg:justify-end items-center px-0 lg:px-12">
-                <nav className="nav__container__actions">
-                    <ul className='flex space-x-1 lg:space-x-5'>
-                        <li className=''>
-                            <Link activeClass="active" smooth spy to="home">
-                                Home
-                            </Link>
+        <div>
+            <div className="navbar bg-black fixed top-0 left-0 right-0 z-[100] p-0 max-h-[50px]">
+                <div className="flex-1" />
+                <div className="flex-none">
+                    <ul className="menu menu-horizontal divide-x lg:divide-x-0 text-[0.9rem] lg:text-[1.02rem text-[0.9rem] lg:text-[1.02rem] divide-black/5 pr-3 lg:pr-7">
+                        <li>
+                            <Link className={({ isActive }) => isActive ? 'font-bold tracking-wide text-[#ff3d00] border-b-[3px] border-[#ff3d00] transition-colors duration-200'
+                                : 'font-medium tracking-wide transition-colors duration-200 hover:bg-white/10 hover:text-white'} smooth spy to="home" >Home</Link>
                         </li>
-                        <li className=''>
-                            <Link activeClass="active" smooth spy to="about">
-                                About
-                            </Link>
+                        <li>
+                            <Link className={({ isActive }) => isActive ? 'font-bold tracking-wide text-[#ff3d00] border-b-[3px] border-[#ff3d00] transition-colors duration-200'
+                                : 'font-medium tracking-wide transition-colors duration-200 hover:bg-white/10 hover:text-white'} smooth spy to="about" >About</Link>
                         </li>
-                        <li className=''>
-                            <Link activeClass="active" smooth spy to="portfolio">
-                                Portfolio
-                            </Link>
+                        <li>
+                            <Link className={({ isActive }) => isActive ? 'font-bold tracking-wide text-[#ff3d00] border-b-[3px] border-[#ff3d00] transition-colors duration-200'
+                                : 'font-medium tracking-wide transition-colors duration-200 hover:bg-white/10 hover:text-white'} smooth spy to="portfolio" >Portfolio</Link>
                         </li>
-                        <li className=''>
-                            <Link activeClass="active" smooth spy to="skills">
-                                Skills
-                            </Link>
+                        <li>
+                            <Link className={({ isActive }) => isActive ? 'font-bold tracking-wide text-[#ff3d00] border-b-[3px] border-[#ff3d00] transition-colors duration-200'
+                                : 'font-medium tracking-wide transition-colors duration-200 hover:bg-white/10 hover:text-white'} smooth spy to="skills" >Skills</Link>
                         </li>
-                        <li className=''>
-                            <Link activeClass="active" smooth spy to="contact">
-                                Contact
-                            </Link>
+                        <li>
+                            <Link className={({ isActive }) => isActive ? 'font-bold tracking-wide text-[#ff3d00] border-b-[3px] border-[#ff3d00] transition-colors duration-200'
+                                : 'font-medium tracking-wide transition-colors duration-200 hover:bg-white/10 hover:text-white'} smooth spy to="contact" >Contact</Link>
                         </li>
                     </ul>
-                </nav>
-            </header>
-            <section id="home">
+                </div>
+            </div>
+            <section id="home" className=' bg-[#090a16]'>
                 <Home />
             </section>
-            <section id="about" className='mt-20'>
+            <section id="about" className='  bg-blue-500'>
                 <About />
             </section>
-            <section id="portfolio" className='mt-20'>
+            <section id="portfolio" className='  bg-white'>
                 <Portfolio />
             </section>
-            <section id="skills" className=''>
+            <section id="skills" className=' bg-yellow-600'>
                 <Skills />
             </section>
-            <section id="contact" className='mt-20'>
+            <section id="contact" className='  bg-green-500'>
                 <Contact />
             </section>
         </div>

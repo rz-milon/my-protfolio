@@ -14,9 +14,9 @@ const LeftSideSocialIcon = () => {
     }, [])
 
     return (
-        <div className='fixed left-0 top-0 z-[90] hidden lg:block' data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+        <div className='absolute left-0 top-0 z-[99] hidden lg:block' data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
         >
-            <div className='bg-[#ff3d00] h-28 w-[1px] my-0 mx-auto'></div>
+            <div className='bg-[#ff3d00] h-28 w-[1px] my-0 mx-auto'/>
             <ul className='block space-y-3 mx-6 my-4'>
                 <li className='hover:text-[#ff3d00] hover:translate-x-1 duration-700 text-gray-400'>
                     <a href="https://github.com/rz-milon" target="_blank" rel="noopener noreferrer"><VscGithubInverted className='w-6 h-6' /></a>
