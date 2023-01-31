@@ -1,4 +1,5 @@
-  section {
+
+section {
     display: grid;
     gap: 10;
     place-items: center;

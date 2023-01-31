@@ -12,29 +12,23 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-            <div className="navbar bg-black fixed top-0 left-0 right-0 z-[100] p-0 max-h-[50px]">
-                <div className="flex-1" />
+            <div className="flex justify-end items-center w-full min-h-[52px] bg-[#000] fixed top-0 left-0 right-0 z-[100] pr-3 lg:pr-7">
                 <div className="flex-none">
-                    <ul className="menu menu-horizontal divide-x lg:divide-x-0 text-[0.9rem] lg:text-[1.02rem text-[0.9rem] lg:text-[1.02rem] divide-black/5 pr-3 lg:pr-7">
+                    <ul className="menu menu-horizontal divide-x lg:divide-x-0 text-[#00ffff] text-[0.9rem] lg:text-[1.02rem text-[0.9rem] lg:text-[1.02rem] divide-white/10 w-full">
                         <li>
-                            <Link className={({ isActive }) => isActive ? 'font-bold tracking-wide text-[#ff3d00] border-b-[3px] border-[#ff3d00] transition-colors duration-200'
-                                : 'font-medium tracking-wide transition-colors duration-200 hover:bg-white/10 hover:text-white'} smooth spy to="home" >Home</Link>
+                            <Link className='px-2 py-4 md:px-3 md:py-4 lg:px-8 lg:py-4' activeClass='active' smooth spy to="home" >Home</Link>
                         </li>
                         <li>
-                            <Link className={({ isActive }) => isActive ? 'font-bold tracking-wide text-[#ff3d00] border-b-[3px] border-[#ff3d00] transition-colors duration-200'
-                                : 'font-medium tracking-wide transition-colors duration-200 hover:bg-white/10 hover:text-white'} smooth spy to="about" >About</Link>
+                            <Link className='px-2 py-4 md:px-3 md:py-4 lg:px-8 lg:py-4' activeClass='active' smooth spy to="about" >About</Link>
                         </li>
                         <li>
-                            <Link className={({ isActive }) => isActive ? 'font-bold tracking-wide text-[#ff3d00] border-b-[3px] border-[#ff3d00] transition-colors duration-200'
-                                : 'font-medium tracking-wide transition-colors duration-200 hover:bg-white/10 hover:text-white'} smooth spy to="portfolio" >Portfolio</Link>
+                            <Link className='px-2 py-4 md:px-3 md:py-4 lg:px-8 lg:py-4' activeClass='active' smooth spy to="portfolio" >Portfolio</Link>
                         </li>
                         <li>
-                            <Link className={({ isActive }) => isActive ? 'font-bold tracking-wide text-[#ff3d00] border-b-[3px] border-[#ff3d00] transition-colors duration-200'
-                                : 'font-medium tracking-wide transition-colors duration-200 hover:bg-white/10 hover:text-white'} smooth spy to="skills" >Skills</Link>
+                            <Link className='px-2 py-4 md:px-3 md:py-4 lg:px-8 lg:py-4' activeClass='active' smooth spy to="skills" >Skills</Link>
                         </li>
                         <li>
-                            <Link className={({ isActive }) => isActive ? 'font-bold tracking-wide text-[#ff3d00] border-b-[3px] border-[#ff3d00] transition-colors duration-200'
-                                : 'font-medium tracking-wide transition-colors duration-200 hover:bg-white/10 hover:text-white'} smooth spy to="contact" >Contact</Link>
+                            <Link className='px-2 py-4 md:px-3 md:py-4 lg:px-8 lg:py-4' activeClass='active' smooth spy to="contact" >Contact</Link>
                         </li>
                     </ul>
                 </div>
