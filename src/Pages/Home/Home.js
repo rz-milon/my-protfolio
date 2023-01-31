@@ -4,8 +4,6 @@ import { FaAngleDown, FaFacebookSquare, FaLinkedin, FaTwitter } from 'react-icon
 import { VscGithubInverted } from "react-icons/vsc";
 import { HiMail } from 'react-icons/hi';
 import { MdPictureAsPdf } from "react-icons/md";
-// import { Link } from 'react-router-dom';
-import { Link } from 'react-scroll';
 import BubbleParticle from '../../components/Particles/BubbleParticle';
 
 
@@ -18,7 +16,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div className="hero min-h-screen min-w-full ">
+        <div className="hero min-h-screen min-w-full bg-[#090a16]">
             <BubbleParticle/>
             <div className="hero-content text-center top-1/2  lg:top-1/3 text-white" >
                 <div className="max-w-full text-left">
@@ -52,7 +50,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='absolute left-1/2 right-0 bottom-8 md:bottom-10 lg:bottom-16 mx-auto'>
-                <a href="#about"><FaAngleDown className='animate-bounce w-10 h-10 text-[#ff3d00]' /></a>
+                <a href="#about"><FaAngleDown className='animate-bounce w-10 h-10 text-[#ff3d00] hover:bg-white/5 rounded-full' /></a>
             </div>
         </div>
     );

@@ -2,6 +2,7 @@ import Aos from 'aos';
 import React, { useEffect } from 'react';
 import { FaAngleUp, FaFacebookSquare, FaLinkedin, FaRegEnvelope, FaTwitter } from 'react-icons/fa';
 import { VscGithubInverted } from 'react-icons/vsc';
+import './Contact.css';
 
 
 
@@ -44,12 +45,15 @@ const Contact = () => {
                             <textarea type='text' name='message' required className="outline-none hover:bg-black/20 px-4 py-3 border-b border-black/20 hover:border-[#ff3d00] w-full lg:max-w-lg md:w-full h-36 bg-transparent" placeholder="Message"></textarea>
                         </div>
                         <div className='flex justify-center w-full lg:w-30'>
-                            <button type="submit" className='mt-5 text-xl text-white px-4 py-2 hover:bg-[#ff3d00] border border-[#ff3d00]'>Send Message</button>
+                            <button type="submit" className='btn2 mt-5 text-xl hover:text-white px-[18px] py-3 relative  border border-[#ff3d00] text-[#ff3d00] overflow-hidden'>
+                            <span class="absolute inset-0 bg-[#ff3d00]"></span><span class="absolute inset-0 flex justify-center items-center">
+                            Send Message
+                                </span>Send Message</button>
                         </div>
                     </div>
                 </div>
-                <div className='absolute right-0 overflow-hidden'>
-                    <a href="#home"><FaAngleUp className='animate-bounce w-10 h-10 text-[#ff3d00]' /></a>
+                <div className='absolute right-0 '>
+                    <a href="#home"><FaAngleUp className='animate-bounce w-10 h-10 text-[#ff3d00] hover:bg-white/5 rounded-full' /></a>
                 </div>
             </div>
         </div>
