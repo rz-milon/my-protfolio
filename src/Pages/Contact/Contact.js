@@ -6,6 +6,7 @@ import './Contact.css';
 
 
 
+
 const Contact = () => {
     useEffect(() => {
         Aos.init();
@@ -13,6 +14,7 @@ const Contact = () => {
 
     return (
         <div className='hero min-h-screen'>
+
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:mx-40 md:mx-36 sm:mx-32" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
 
                 <div className="flex flex-col justify-center lg:justify-between lg:flex-row lg:space-x-32">
@@ -52,7 +54,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='absolute right-0 '>
+                <div className='absolute right-5 '>
                     <a href="#home"><FaAngleUp className='animate-bounce w-10 h-10 text-[#ff3d00] hover:bg-white/5 rounded-full' /></a>
                 </div>
             </div>
