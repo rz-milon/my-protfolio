@@ -21,8 +21,8 @@ const Portfolio = () => {
 
 
     return (
-        <div className="grid w-full items-center bg-cover mt-12" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-             <h2 className='mx-10 lg:mx-52 mt-6 lg:mt-10 text-4xl tracking-tight font-light lg:text-left text-center text-[#ff3d00]'>My Projects</h2>
+        <div className="grid w-full items-center bg-cover" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+             <h2 className='text-2xl md:text-3xl lg:text-4xl tracking-tight font-light text-left text-[#ff3d00] mx-5 md:mx-28 lg:mx-40'>My Projects</h2>
             <br />
             <>
                 <Swiper
