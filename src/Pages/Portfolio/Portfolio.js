@@ -57,26 +57,7 @@ const Portfolio = () => {
                                 </div>
                                 <div className="card-actions inline-flex  justify-end">
                                     <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://assignment-10-509ea.web.app/" target="_blank" rel="noopener noreferrer"><HiOutlineGlobeAlt className='w-6 h-6 mr-2' /><span className='mr-2'>Live</span><HiExternalLink className='w-6 h-6' /></a>
-                                    <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href=" " target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="card w-full h-[350px] bg-black/10 text-white rounded-lg shadow-xl shadow-white/10 hover:shadow-[#ff3d00]">
-                            <figure><img src={projectImg1} alt="" className='w-full lg:h-28 h-36' /></figure>
-
-                            <div className="card-body px-4 py-2 text-left">
-                                <h2 className="card-title mb-3">
-                                    FLOOD DONATION
-                                </h2>
-                                <p className='text-left'>Simple project developed HTML & CSS</p>
-                                <div className=''>
-                                    <p className='font-thin text-justify space-x-2'> <span>HTML</span> <span>CSS</span></p>
-                                </div>
-                                <div className="card-actions inline-flex  justify-end">
-                                    <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://storied-marzipan-7e26f5.netlify.app/" target="_blank" rel="noopener noreferrer"><HiOutlineGlobeAlt className='w-6 h-6 mr-2' /><span className='mr-2'>Live</span><HiExternalLink className='w-6 h-6' /></a>
-                                    <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href=" " target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
+                                    <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://github.com/rz-milon/assignment-10" target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
                                 </div>
                             </div>
                         </div>
@@ -95,6 +76,25 @@ const Portfolio = () => {
                                 </div>
                                 <div className="card-actions inline-flex  justify-end">
                                     <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://app.netlify.com/sites/delicate-hamster-62a4f7" target="_blank" rel="noopener noreferrer"><HiOutlineGlobeAlt className='w-6 h-6 mr-2' /><span className='mr-2'>Live</span><HiExternalLink className='w-6 h-6' /></a>
+                                    <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://github.com/rz-milon/assignment-05" target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="card w-full h-[350px] bg-black/10 text-white rounded-lg shadow-xl shadow-white/10 hover:shadow-[#ff3d00]">
+                            <figure><img src={projectImg1} alt="" className='w-full lg:h-28 h-36' /></figure>
+
+                            <div className="card-body px-4 py-2 text-left">
+                                <h2 className="card-title mb-3">
+                                    FLOOD DONATION
+                                </h2>
+                                <p className='text-left'>Simple project developed HTML & CSS</p>
+                                <div className=''>
+                                    <p className='font-thin text-justify space-x-2'> <span>HTML</span> <span>CSS</span></p>
+                                </div>
+                                <div className="card-actions inline-flex  justify-end">
+                                    <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href="https://storied-marzipan-7e26f5.netlify.app/" target="_blank" rel="noopener noreferrer"><HiOutlineGlobeAlt className='w-6 h-6 mr-2' /><span className='mr-2'>Live</span><HiExternalLink className='w-6 h-6' /></a>
                                     <a className='flex rounded hover:bg-[#ff3d00] px-2 py-1' href=" " target="_blank" rel="noopener noreferrer"><FaGithub className='w-6 h-6 mr-2' /><span className='mr-2'>Source</span><HiExternalLink className='w-6 h-6' /></a>
                                 </div>
                             </div>

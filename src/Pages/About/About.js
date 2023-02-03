@@ -13,9 +13,9 @@ const About = () => {
             <div className="flex flex-row-reverse sm:mx-28 md:mx-24 lg:mx-28 mt-4 lg:mt-32" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
 
                 <div className='min-w-lg p-4'>
-                    <img src={profileImg} alt='' className="max-w-[120px] md:max-w-sm lg:max-w-sm rounded-lg shadow-lg bg-white float-right h-[150px] md:h-64 lg:h-80 opacity-70 hover:opacity-100 transition delay-300 mt-[55px] lg:mt-20 md:ml-2 lg:ml-3" />
+                    <img src={profileImg} alt='' className="w-[120px] md:w-sm lg:w-sm rounded-lg shadow-lg bg-white float-right h-[150px] md:h-64 lg:h-80 opacity-70 hover:opacity-100 transition delay-300 mt-[55px] lg:mt-20 md:ml-2 lg:ml-3" />
                     <h1 className="text-2xl md:text-3xl lg:text-4xl tracking-tight font-light text-left text-[#ff3d00] ">About Me</h1>
-                    <p className="text-sm md:text-lg lg:text-[1.2rem] text-left tracking-wide leading-4 md:leading-5 lg:leading-7 font-thin mt-4 lg:mt-12 font-sans"><article>I'm a react front end web developer from Dhaka, Bangladesh.</article>
+                    <p className="text-[1.30rem] md:text-lg lg:text-[1.2rem] text-left tracking-wide leading-5 md:leading-6 lg:leading-7 font-thin mt-4 lg:mt-12 font-sans"><article>I'm a react front end web developer from Dhaka, Bangladesh.</article>
                         <article>
                             In previous years I devoted my time to learning Sociology and I have completed my graduation.</article> <article>I love creating responsive websites.I enjoy creating website designs in Figma and converting UI designs into real websites. I've done multiple small projects to learn basics and now doing more complex projects. I always hungry to keep learning.
                                 I like dabbling in various parts of front-end development and like to learn about new technologies.</article>
