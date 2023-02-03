@@ -17,7 +17,7 @@ const Home = () => {
 
     return (
         <div className="hero min-h-screen min-w-full bg-[#090a16]">
-            <BubbleParticle/>
+            <BubbleParticle />
             <div className="hero-content text-center top-1/2  lg:top-1/3 text-white" >
                 <div className="max-w-full text-left">
                     <p className="text-xl font-light tracking-tight mb-3">Hello, My name is</p>
