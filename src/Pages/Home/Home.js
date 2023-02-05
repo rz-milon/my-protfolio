@@ -49,9 +49,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='absolute left-1/2 right-0 bottom-8 md:bottom-10 lg:bottom-16 mx-auto'>
+            {/* <div className='absolute left-1/2 right-0 bottom-8 md:bottom-10 lg:bottom-16 mx-auto'>
                 <a href="#about"><FaAngleDown className='animate-bounce w-10 h-10 text-[#ff3d00] hover:bg-white/5 rounded-full' /></a>
-            </div>
+            </div> */}
         </div>
     );
 };

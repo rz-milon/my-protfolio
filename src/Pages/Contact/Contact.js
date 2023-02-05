@@ -54,9 +54,9 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='absolute right-5 '>
+                {/* <div className='absolute right-5 '>
                     <a href="#home"><FaAngleUp className='animate-bounce w-10 h-10 text-[#ff3d00] hover:bg-white/5 rounded-full' /></a>
-                </div>
+                </div> */}
             </div>
         </div>
 

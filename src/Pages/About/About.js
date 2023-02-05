@@ -9,8 +9,8 @@ const About = () => {
         Aos.init();
     }, [])
     return (
-        <div className="min-h-screen hero text-white">
-            <div className="flex flex-row-reverse sm:mx-28 md:mx-24 lg:mx-28 mt-4 lg:mt-32" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+        <div className="min-h-screen text-white">
+            <div className="flex flex-row-reverse sm:mx-28 md:mx-24 lg:mx-28 mt-4 lg:mt-14" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
 
                 <div className='min-w-lg p-4'>
                     <img src={profileImg} alt='' className="max-w-[120px] md:max-w-sm lg:max-w-sm rounded-lg shadow-lg bg-white float-right h-[150px] md:h-64 lg:h-80 opacity-70 hover:opacity-100 transition delay-300 mt-[55px] lg:mt-20 md:ml-2 lg:ml-3" />
